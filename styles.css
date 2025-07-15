@@ -1,7 +1,10 @@
 .header{
     background-image: url("./images/Hero-bg.png");
-    background-size: auto;
-    background-position: initial;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    margin: 0%; 
+    padding: 50px;;
 }
 
 .open-sans-inter {
@@ -33,13 +36,27 @@ nav{
     border-radius: 10px;
     border: none;
     font-size: 15px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: aliceblue;
+    color: black;
 }
 .banner{
-    margin: auto;
+    margin-left: 300px;
+    margin-top: 200px;
+    justify-content: center;
     text-align: center;
+    align-items: center;
 }
 .banner-content{
     max-width: 905px;
     font-weight: bolder;
     font-size: 75px;
+    margin-bottom: 50px;
+    text-align: center;
+    align-items: center;
+}
+.btn-aling{
+    margin-right: 250px;
 }
