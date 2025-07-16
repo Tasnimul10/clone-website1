@@ -18,6 +18,7 @@ nav{
     align-items: center;
     justify-content: space-between;
     margin: 50px 200px;
+    padding-bottom: 200px;
 }
 .btn{
     background-color: #4E47FF;
