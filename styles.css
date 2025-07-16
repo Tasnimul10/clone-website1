@@ -144,7 +144,7 @@ main{
 .user-id{
     margin-top: 20px;
     text-align: justify;
-    align-items: center;
+    align-items: normal;
     max-width:100px;
     display: flex;
 }
