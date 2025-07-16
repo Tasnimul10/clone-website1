@@ -138,10 +138,11 @@ main{
 }
 .user-details{
     color: rgb(78, 75, 75);
+    display: block;
 }
 .user-id{
     margin-top: 20px;
-    text-align: center;
+    text-align: justify;
     align-items: center;
     max-width:100px;
     display: flex;
@@ -155,4 +156,42 @@ main{
 }
 .text-color{
     color:rgb(62, 59, 59) ;
+}
+/* Footer*/
+.background{
+    background-color: rgb(223, 226, 235);
+}
+.footer_column{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 130px 230px;
+    gap: 100px;
+}
+.footer-says{
+    font-weight: bolder;
+    font-size: 75px;
+}
+.info{
+
+}
+footer input,footer textarea{
+    height: 34px;
+    width: 100%;
+    border-radius: 10px;
+    color: rgb(62, 59, 59);
+    background-color: white;
+    border-color: whitesmoke;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+}
+footer textarea{
+    height: 64px;
+    width: 100%;
+    border-radius: 10px;
+    color: rgb(62, 59, 59);
+    background-color: white;
+    border-color: whitesmoke;
+    padding: 10px 20px;
+    margin-bottom: 24px;
 }
