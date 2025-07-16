@@ -65,6 +65,9 @@ nav{
     color: rgb(78, 75, 75);
     margin-bottom: 50px;
 }
+.edit-image{
+    border-radius: 30px;
+}
 
 
 /*Joined Section*/
@@ -103,4 +106,53 @@ main{
 }
 .centerd{
     text-align: center;
+}
+
+
+/*Review Section*/
+.user{
+    margin-top: 150px;
+}
+.reviews{
+    justify-content: space-around;
+    display: flex;
+}
+.review-section{
+    background-color: whitesmoke;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 15px;
+}
+.review-title{
+    font-size: 20px;
+    font-weight: bold;
+}
+.user-comment{
+    display: inline;
+    color: rgb(78, 75, 75);
+}
+.user-image{
+    border-radius: 50px;
+    margin-right: 10px;
+    height: 50px;
+}
+.user-details{
+    color: rgb(78, 75, 75);
+}
+.user-id{
+    margin-top: 20px;
+    text-align: center;
+    align-items: center;
+    max-width:100px;
+    display: flex;
+}
+.reviewer-name{
+    display: inline;
+    margin-top: 20px;
+    font-size: medium;
+    font-weight: 700;
+    color: rgb(78, 75, 75)
+}
+.text-color{
+    color:rgb(62, 59, 59) ;
 }
