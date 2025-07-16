@@ -155,7 +155,7 @@ main{
     color: rgb(78, 75, 75)
 }
 .text-color{
-    color:rgb(62, 59, 59) ;
+    color:rgb(78, 75, 75) ;
 }
 /* Footer*/
 .background{
@@ -194,4 +194,32 @@ footer textarea{
     border-color: whitesmoke;
     padding: 10px 20px;
     margin-bottom: 24px;
+}
+
+.final-footer{
+    display: block;
+    text-align: center;
+}
+.footer-logo{
+    padding-top: 100px;
+    margin: 0 auto;
+    max-width: 905px;
+    font-weight: bolder;
+    font-size: 75px;
+}
+.pages{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+ul{
+    display: flex;
+}
+ul li{
+    list-style: none;
+    margin-right: 50px;
+    padding-bottom: 100px;
+}
+li a{
+    text-decoration: none;
 }
